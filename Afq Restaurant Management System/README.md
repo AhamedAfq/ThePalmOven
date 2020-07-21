@@ -1,19 +1,12 @@
 # Resutaurant Management System (RMS)
-## Execute
-
-website :- https://projectworlds.in
-
-Youtube :- https://youtu.be/6iB4-3c0cxc
-Double click RMS_GUI.jar
 ## Login
 You can use test data for the first time. You can add new staff when you log in as manager.
 ### Manager
-- ID:1000 Password:Java
-- ID:5555 Password:kazukazu
+- ID:20 Password:Afq
 
 ### Staff
-* ID:1111 Password:password
-* ID:3333 Password:david  
+* ID:100 Password:phill
+* ID:200 Password:ronie
 (Modifing the data file directoly may make problem.)  
 
 ## Show menu
@@ -22,7 +15,6 @@ You can see all menu items by clicking ALL button, and items in particular categ
 ### Create new order
 1. Click "Show menu" button on the left
 2. Click "New" button to create new order
-![](readme_images/order.jpg)
 3. Select adding items by clicking from the menu list on the right side.
 4. Enter quantity and click "Add" button on the left side.(If quantity is emputy, one item will be added)
 5. You can delete ordered item from the order detail by clicking "Delete" button  
