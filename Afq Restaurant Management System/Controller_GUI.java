@@ -2,8 +2,8 @@
 /**
  * Write a description of class Controller_GUI here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Ashfak Ahamed
+ * @version 21/07/2020
  */
 import java.util.*;
 import java.text.*;

@@ -1,6 +1,6 @@
 /**
- * Kazunori Hayashi
-* Version 1.0 02/08/2013
+ * @author Ashfak Ahamed
+ * @version 21/07/2020
  */
 public class RMS_GUI
 {
