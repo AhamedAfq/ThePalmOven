@@ -83,7 +83,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
         this.con = getContentPane();
         
         // Set frame
-        setTitle("Ashfaq Restaurant Management System");
+        setTitle("AhamedAfq's The Palm Oven");
         setBounds(WINDOW_X, WINDOW_Y, WINDOW_WIDTH, WINDOW_HEIGHT);
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -154,7 +154,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
         headPanel = new JPanel();
         headPanel.setBackground(Color.BLACK);
         headPanel.setLayout(new FlowLayout());
-        headTitle = new JLabel("Ashfaq's Restaurant Management System");
+        headTitle = new JLabel("AhamedAfq's The Palm Oven");
         headTitle.setForeground(Color.WHITE);
         headTitle.setPreferredSize(new Dimension(500, 30));
         headTitle.setFont(new Font("Arial", Font.BOLD | Font.ITALIC, 24));
@@ -210,7 +210,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
         labelLoginUserName.setPreferredSize(new Dimension(150, 50));
         taMessage = new JTextArea(3,50);
         taMessage.setEditable(false);
-        taMessage.setText("Wellcome!!");
+        taMessage.setText("Welcome!!");
         taMessage.setOpaque(true);
         btnClockOut = new JButton("Clock out");
         btnClockOut.setEnabled(false);
@@ -540,7 +540,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
                 if( rcController.loginCheck(Integer.parseInt(inputID), inputPassword, isManager))
                 {
                     showConfirmDialog("Message", "Login success!!");
-                    displayMessage("Wellcome, " + currentUserName);
+                    displayMessage("Welcome, " + currentUserName);
                     tfUserID.setText("");
                     pwPassword.setText("");
                     changeMainPanel("Home");
@@ -557,7 +557,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
     private void  changeMainPanel(String panelName)
     {
         ((CardLayout) mainPanel.getLayout()).show( mainPanel, panelName);
-        displayMessage("Main paanel change :" + panelName);
+        displayMessage("Main panel change :" + panelName);
     }
     
     /****************************************************************
