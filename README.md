@@ -1,5 +1,6 @@
 # Resutaurant Management System (RMS)
 
+A Core JAVA project built using Abstract Window Toolkit.
 
 <img width="899" alt="image" src="https://user-images.githubusercontent.com/57934160/229345086-29c22888-db88-40ab-b73c-861facf2d67b.png">
 
